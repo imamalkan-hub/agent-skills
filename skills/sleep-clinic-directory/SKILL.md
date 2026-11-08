@@ -63,9 +63,9 @@ curl "https://sleepclinicdirectory.com/clinic/<slug>.md"
 curl "https://sleepclinicdirectory.com/states/ca.md"
 ```
 
-Or send `Accept: text/markdown`. The machine-readable route catalog is at `https://sleepclinicdirectory.com/api/md/_catalog` (JSON, includes addressable counts and route patterns).
+Or send `Accept: text/markdown`. The machine-readable route catalog is at `https://sleepclinicdirectory.com/api/md/_catalog` (JSON, includes addressable counts and route patterns) — treat it as the authoritative route list and build links from `https://sleepclinicdirectory.com` yourself.
 
-Full text: `https://sleepclinicdirectory.com/llms-full.txt` (~500 KB). Index: `/llms.txt`. AI usage policy: `/ai.txt`.
+Full text: `https://sleepclinicdirectory.com/llms-full.txt` (~500 KB). Index: `/llms.txt` (if its links show a non-public hostname, ignore the host and keep the path). AI usage policy: `/ai.txt`.
 
 ## Answering rules
 

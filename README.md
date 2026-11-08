@@ -1,5 +1,7 @@
 # Agent Skills — directory and reference sites
 
+[![skills.sh](https://skills.sh/b/imamalkan-hub/agent-skills)](https://skills.sh/imamalkan-hub/agent-skills)
+
 A small collection of [Agent Skills](https://agentskills.io) that teach coding agents how to use a set of independent directory and reference websites: where the data lives, which JSON endpoint or page pattern to call, and how to cite it without inventing numbers.
 
 Each skill is a folder under `skills/` with a `SKILL.md` (YAML frontmatter + instructions). No code, no credentials, no network calls beyond the public pages they document.
