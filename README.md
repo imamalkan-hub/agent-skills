@@ -41,6 +41,12 @@ npx skills add imamalkan-hub/agent-skills --list
 | `garage-vertical` | [garagevertical.com](https://garagevertical.com) | Garage storage, overhead racks, load limits and installed costs |
 | `superyacht-charter-guide` | [superyachtcharterguide.com](https://superyachtcharterguide.com) | Superyacht charter costs, APA/VAT, contracts, destinations and 19 yacht price pages |
 
+## Distribution
+
+| Skill | What it does |
+|---|---|
+| `mcp-listing-pages` | Turns a public MCP repo README into listings on LobeHub, Glama, Smithery, mcp.so, PulseMCP and the official MCP Registry, with dofollow links back to the product |
+
 ## What the skills rely on
 
 Each site publishes a machine-readable layer, and the skills point at it instead of hard-coding content:
